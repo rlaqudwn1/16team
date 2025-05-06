@@ -34,3 +34,18 @@
 ├── data/           # 크롤링 스크립트, 뉴스 원문 정제 로직
 ├── docs/           # 설계 문서, 다이어그램 등
 └── README.md       # 🔹 전체 프로젝트 설명
+
+📦 기술 스택
+분류	기술
+프론트	React + Tailwind + Chart.js
+백엔드	Spring Boot + GPT API
+DB	MySQL or PostgreSQL
+크롤링	Jsoup (Java), or Requests + BeautifulSoup (Python)
+AI 요약	OpenAI GPT-4 (or KoBART 대체 예정)
+
+🔖 프로젝트 목표
+토스처럼 한 화면에서 모든 경제 흐름을 확인할 수 있는 플랫폼 구축
+
+GPT 기반 요약으로 뉴스 부담 최소화
+
+키워드 중심 뉴스 큐레이션으로 트렌드 인식력 강화
