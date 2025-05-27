@@ -1,10 +1,9 @@
-package com.example.backend.trend.service;
+package com.example.backend.domain.trend.service;
 
 // service/TrendService.java
-import com.example.backend.trend.dto.TrendDTO;
-import com.example.backend.trend.dto.TrendItem;
-import com.example.backend.trend.entitiy.TrendEntity;
-import com.example.backend.trend.repository.TrendRepository;
+import com.example.backend.domain.trend.entitiy.TrendEntity;
+import com.example.backend.domain.trend.repository.TrendRepository;
+import com.example.backend.domain.trend.dto.TrendDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;

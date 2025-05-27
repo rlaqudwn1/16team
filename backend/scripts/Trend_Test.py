@@ -14,7 +14,8 @@ params = {
     "geo": "KR",
     "hl": "ko",
     "tz": "-540",
-    "api_key": api_key
+    "api_key": api_key,
+    "cat" : 18
 }
 
 # SerpApi 요청

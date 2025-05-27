@@ -1,4 +1,4 @@
-package com.example.backend.trend.dto;
+package com.example.backend.domain.trend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,8 +1,7 @@
-package com.example.backend.trend.controller;
+package com.example.backend.domain.trend.controller;
 
-import com.example.backend.trend.dto.TrendDTO;
-import com.example.backend.trend.service.TrendService;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.example.backend.domain.trend.service.TrendService;
+import com.example.backend.domain.trend.dto.TrendDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
@@ -25,7 +24,6 @@ public class TrendController {
             consumes = "application/json;charset=UTF-8",
             produces = "application/json;charset=UTF-8"
     )    public ResponseEntity<String> receiveTrends(@RequestBody List<TrendDTO> trends) {
-        // TODO: DB 저장 또는 로그 확인
         trendService.saveTrends(trends);
         return ResponseEntity.ok("✅ Trends successfully received!");
     }

@@ -1,4 +1,4 @@
-package com.example.backend.trend.entitiy;
+package com.example.backend.domain.trend.entitiy;
 
 import jakarta.persistence.*;
 import lombok.*;
