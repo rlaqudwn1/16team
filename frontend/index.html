@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foxstocks Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="Dashboard">
+    <!-- 사이드바 -->
+    <aside class="sidebar">
+      <h1 class="logo">Foxstocks</h1>
+      <nav class="menu" id="stock-menu">
+        <!-- 종목 리스트 (JS로 로딩됨) -->
+      </nav>
+    </aside>
+
+<!-- 메인 콘텐츠 -->
+<main class="main-content">
+  <header>
+    <h2>안녕하세요, 선제욱님</h2>
+    <!-- 주식 검색창 및 검색 버튼 추가 -->
+    <div>
+      <input id="stock-search" class="search" placeholder="주식 검색하기.." />
+      <button onclick="searchStock()">검색</button>
+    </div>
+  </header>
+
+      <!-- 주식 차트 -->
+<section class="chart-area">
+  <div id="chart-title" style="font-size: 20px; font-weight: bold; margin-bottom: 10px;"></div>
+  <canvas id="stockChart" width="400" height="200"></canvas>
+</section>
+
+      <!-- 요약 지표 -->
+      <section class="summary">
+        <div><strong>High</strong>: <span id="high">--</span></div>
+        <div><strong>Low</strong>: <span id="low">--</span></div>
+        <div><strong>Open</strong>: <span id="open">--</span></div>
+        <div><strong>Prev Close</strong>: <span id="prevClose">--</span></div>
+      </section>
+
+      <!-- 경제 용어 카드 슬라이더 -->
+      <section class="term-slider">
+        <div class="term-controls">
+          <button onclick="prevTerm()">←</button>
+          <button onclick="nextTerm()">→</button>
+        </div>
+        <div id="term-card-container"></div>
+      </section>
+
+      <!-- 뉴스 카드 섹션 -->
+      <section class="news-section">
+        <div id="news-tabs" class="news-tabs"></div>
+        <div id="news-card-list" class="news-card-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- 스크립트는 마지막에 배치 -->
+  <script src="script.js"></script>
+</body>
+</html>
