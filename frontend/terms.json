@@ -1,0 +1,121 @@
+[
+  {
+    "term": "GDP",
+    "english": "Gross Domestic Product",
+    "definition": "한 나라에서 일정 기간 동안 생산된 모든 재화와 서비스의 시장 가치",
+    "category": "",
+    "related_terms": [
+      "GNP",
+      "성장률",
+      "국민소득"
+    ],
+    "example": "GDP가 증가하면 생산과 고용이 늘어나고, 기업 이익 증가로 주식시장도 긍정적인 영향을 받을 수 있다."
+  },
+  {
+    "term": "GNP",
+    "english": "Gross National Product",
+    "definition": "한 나라의 국민이 국내외에서 생산한 모든 재화와 서비스의 시장 가치",
+    "category": "",
+    "related_terms": [
+      "GDP",
+      "국민소득"
+    ],
+    "example": "해외에서 활동하는 기업 수익이 증가하면 GNP는 GDP보다 더 빠르게 증가할 수 있다."
+  },
+  {
+    "term": "국민소득",
+    "english": "National Income",
+    "definition": "국민이 생산 활동을 통해 얻은 총소득에서 감가상각 등을 제외한 순수한 소득",
+    "category": "",
+    "related_terms": [
+      "GNP",
+      "GDP",
+      "가처분소득"
+    ],
+    "example": "국민소득이 증가하면 가계의 소비 여력이 늘어나고, 이는 내수 시장 확대를 유도할 수 있다."
+  },
+  {
+    "term": "경제성장률",
+    "english": "Economic Growth Rate",
+    "definition": "GDP 증가율로 측정되는 한 국가의 경제 성장 속도",
+    "category": "",
+    "related_terms": [
+      "GDP",
+      "잠재성장률",
+      "고용률"
+    ],
+    "example": "경제성장률이 높아지면 일자리 창출과 투자 확대로 이어져 경기 회복에 기여한다."
+  },
+  {
+    "term": "잠재성장률",
+    "english": "Potential Growth Rate",
+    "definition": "물가 상승 없이 달성할 수 있는 최대 경제 성장률",
+    "category": "",
+    "related_terms": [
+      "경제성장률",
+      "생산성",
+      "노동력"
+    ],
+    "example": "잠재성장률이 낮아지면 장기적으로 경제 활력이 떨어지고, 재정정책 의존도가 커질 수 있다."
+  },
+  {
+    "term": "경기순환",
+    "english": "Business Cycle",
+    "definition": "경기가 확장과 수축을 반복하는 경제의 주기적인 흐름",
+    "category": "",
+    "related_terms": [
+      "경기침체",
+      "경기회복",
+      "경기확장"
+    ],
+    "example": "경기순환상 수축기에 진입하면 기업 실적 악화와 실업률 증가가 동반될 수 있다."
+  },
+  {
+    "term": "물가상승률",
+    "english": "Inflation Rate",
+    "definition": "소비자 물가가 일정 기간 동안 얼마나 상승했는지를 나타내는 비율",
+    "category": "",
+    "related_terms": [
+      "인플레이션",
+      "기준금리",
+      "디플레이션"
+    ],
+    "example": "물가상승률이 높아지면 소비자 실질 구매력이 감소하고, 기준금리 인상 압력이 커진다."
+  },
+  {
+    "term": "인플레이션",
+    "english": "Inflation",
+    "definition": "전반적인 상품과 서비스 가격이 지속적으로 상승하는 현상",
+    "category": "",
+    "related_terms": [
+      "디플레이션",
+      "물가상승률",
+      "기준금리"
+    ],
+    "example": "인플레이션이 심화되면 중앙은행은 기준금리를 인상하여 물가를 안정시키려 한다."
+  },
+  {
+    "term": "디플레이션",
+    "english": "Deflation",
+    "definition": "일반적인 물가 수준이 지속적으로 하락하는 현상",
+    "category": "",
+    "related_terms": [
+      "인플레이션",
+      "소비위축",
+      "실질금리"
+    ],
+    "example": "디플레이션이 발생하면 소비자 지출이 감소하고 기업 수익도 줄어들어 경기침체로 이어질 수 있다."
+  },
+  {
+    "term": "스태그플레이션",
+    "english": "Stagflation",
+    "definition": "경기침체 속에서 물가가 오르는 이례적인 경제 현상",
+    "category": "",
+    "related_terms": [
+      "인플레이션",
+      "경기침체",
+      "실업률"
+    ],
+    "example": "스태그플레이션 상황에서는 금리를 쉽게 조절하기 어려워 정책 대응이 복잡해진다."
+  }
+]
