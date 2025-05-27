@@ -7,10 +7,9 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 @Data
 public class TrendDTO {
-    private String query;
-    private Integer searchVolume;
-    private List<String> relatedKeywords;
-    private List<String> categories;
-    private String link;
+    private int id;
+    private List<String> keywords;
+    private String category;
+    private String createdAt;
 }
 

@@ -4,6 +4,7 @@ import com.example.backend.domain.keyword.dto.KeywordRequestDto;
 import com.example.backend.domain.keyword.dto.RecommendationResponseDto;
 import com.example.backend.domain.keyword.dto.TrendKeywordDto;
 import com.example.backend.domain.keyword.service.RecommendationService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,12 +16,9 @@ import java.util.List;
 // controller/RecommendationController.java
 @RestController
 @RequestMapping("/api/recommendations")
+@RequiredArgsConstructor
 public class RecommendationController {
     private final RecommendationService recommendationService;
-
-    public RecommendationController(RecommendationService recommendationService) {
-        this.recommendationService = recommendationService;
-    }
 
     @PostMapping
     public ResponseEntity<List<RecommendationResponseDto>> fromTrends(

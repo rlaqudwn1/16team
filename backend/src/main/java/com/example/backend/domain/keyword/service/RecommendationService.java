@@ -25,7 +25,7 @@ public class RecommendationService {
     public List<RecommendationResponseDto> recommendByTrend(List<String> trendKeywords) {
         var matched = keywordRepository.findByKeywordIn(trendKeywords);
         log.info("추천 요청 키워드 : {}", trendKeywords);
-
+        trendKeywords.get(0);
         // 키워드별로 그룹화
         Map<String, List<String>> grouped = matched.stream()
                 .collect(Collectors.groupingBy(

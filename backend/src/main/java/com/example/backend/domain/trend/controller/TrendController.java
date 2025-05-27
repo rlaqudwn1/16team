@@ -1,5 +1,6 @@
 package com.example.backend.domain.trend.controller;
 
+import com.example.backend.domain.keyword.service.RecommendationService;
 import com.example.backend.domain.trend.service.TrendService;
 import com.example.backend.domain.trend.dto.TrendDTO;
 import org.slf4j.Logger;
@@ -17,6 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TrendController {
     private final TrendService trendService;
+    private final RecommendationService recommend;
 
     private static final Logger log = LoggerFactory.getLogger(TrendController.class);
 
@@ -24,6 +26,9 @@ public class TrendController {
             consumes = "application/json;charset=UTF-8",
             produces = "application/json;charset=UTF-8"
     )    public ResponseEntity<String> receiveTrends(@RequestBody List<TrendDTO> trends) {
+        recommend.recommendByTrend(trends.stream().flatMap(dto -> dto.getKeywords().stream())
+                .distinct().toList());
+
         trendService.saveTrends(trends);
         return ResponseEntity.ok("✅ Trends successfully received!");
     }
