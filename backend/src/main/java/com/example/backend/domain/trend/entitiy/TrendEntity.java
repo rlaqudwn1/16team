@@ -14,9 +14,9 @@ import java.util.List;
 @Data
 @Builder
 public class TrendEntity {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
 
     private String category;
 

@@ -9,12 +9,22 @@ from dateutil import parser
 from serpapi import GoogleSearch
 from dotenv import load_dotenv
 
+def load_keywords_from_json(json_path: str) -> list:
+    with open(json_path, "r", encoding="utf-8") as f:
+        keyword_dict = json.load(f)
+
+    # 모든 키워드 평탄화(flatten)해서 리스트로 반환
+    all_keywords = sum(keyword_dict.values(), [])
+    return all_keywords
+
+
 # ✅ SerpApi API 키 로딩
 load_dotenv()
 api_key = os.getenv("SERPAPI_API_KEY")
 
 # 🔍 키워드 기반 뉴스 수집 (구글 뉴스 + 신뢰 도메인 제한)
-keywords = ["금리 인상", "ETF", "삼성전자", "나스닥", "인플레이션", "환율", "주가", "연준", "PER"]
+keywords = load_keywords_from_json("keywords.json")
+print("총 키워드 개수:", len(keywords))
 trusted_sites = ["site:yna.co.kr", "site:hankyung.com"]
 query = f"({' OR '.join(keywords)}) ({' OR '.join(trusted_sites)})"
 

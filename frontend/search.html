@@ -1,0 +1,41 @@
+<head>
+    <meta charset="UTF-8">
+    <title>경제 용어 검색 결과</title>
+</head>
+<body>
+<h2>검색 결과</h2>
+<div id="searchResult"></div>
+
+<script>
+    const results = JSON.parse(localStorage.getItem("searchResults") || "[]");
+
+    const container = document.getElementById("searchResult");
+
+    if (results.length === 0) {
+        container.innerHTML = "<p>검색 결과가 없습니다.</p>";
+    } else {
+        results.forEach(term => {
+            const card = document.createElement("div");
+            card.style.border = "1px solid #ccc";
+            card.style.margin = "1rem 0";
+            card.style.padding = "1rem";
+            card.style.borderRadius = "8px";
+            card.innerHTML = `
+                <h3>${term.term}</h3>
+                <p><strong>정의:</strong> ${term.definition}</p>
+                <p><strong>관련어:</strong> ${(term.related_terms || []).join(', ')}</p>
+                <p><strong>예시:</strong> ${term.example || '없음'}</p>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+</script>
+</body>
+<button onclick="goHome()" style="margin-top: 20px;">메인으로 가기</button>
+
+<script>
+    function goHome() {
+        window.location.href = "index.html"; // 메인 페이지 경로
+    }
+</script>
