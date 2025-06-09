@@ -20,12 +20,22 @@ public class NewsService {
 
     public News save(NewsRequestDto dto) {
         if (!newsRepository.existsByLink(dto.getLink())) {
-            News news = new News();
-            BeanUtils.copyProperties(dto, news);
+            News news = News.builder()
+                    .title(dto.getTitle())
+                    .link(dto.getLink())
+                    .source(dto.getSource())
+                    .publishedAt(dto.getPublishedAt())
+                    .snippet(dto.getSnippet())
+                    .content(dto.getContent())
+                    .gptSummary(dto.getGptSummary())
+                    .thumbnail(dto.getThumbnail())
+                    .build();
+
             return newsRepository.save(news);
         }
         return null; // 중복일 경우 저장하지 않음
     }
+
 
     public List<News> saveAll(List<NewsRequestDto> dtos) {
         List<News> saved = new ArrayList<>();
