@@ -17,6 +17,7 @@ public class TermController {
     public List<Term> searchTerms(@RequestParam("keyword") String keyword) {
         return termService.searchTerms(keyword);
     }
+
     @GetMapping("/daily")
     public List<Term> getDailyTerms() {
         return termService.getDailyTerms();

@@ -1,13 +1,17 @@
 package com.example.backend.domain.news.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "news")
 @Builder
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class News {
 
     @Id
