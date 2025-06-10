@@ -1,0 +1,1739 @@
+[
+  {
+    "term": "동아시아･태평양중앙은행기구(EMEAP)",
+    "english": "Executives' Meeting of East Asia-Pacific Central Banks",
+    "definition": "동아시아 및 태평양 지역의 중앙은행 간 금융 협력과 정보 공유를 목적으로 설립된 기구이다.",
+    "category": "국제금융/기관",
+    "related_terms": [
+      "BIS",
+      "IMF",
+      "ASEAN+3"
+    ],
+    "example": "한국은행은 동아시아･태평양중앙은행기구(EMEAP) 회의에 참여해 역내 금융안정 방안을 논의했다."
+  },
+  {
+    "term": "동행종합지수",
+    "english": "Coincident Composite Index (CCI)",
+    "definition": "현재의 경기 상황을 종합적으로 보여주는 경기 지표로, 생산, 소비, 고용 등 여러 지표를 종합해 산출한다.",
+    "category": "거시경제/지표",
+    "related_terms": [
+      "선행지수",
+      "후행지수",
+      "경기동행지수"
+    ],
+    "example": "동행종합지수가 상승하면 현재 경기가 개선되고 있다는 신호로 해석된다."
+  },
+  {
+    "term": "디스인플레이션",
+    "english": "Disinflation",
+    "definition": "물가가 계속 상승하긴 하지만, 그 속도가 점차 둔화되는 현상이다.",
+    "category": "거시경제/물가",
+    "related_terms": [
+      "인플레이션",
+      "디플레이션"
+    ],
+    "example": "정부의 긴축 정책으로 인해 인플레이션이 디스인플레이션 단계로 진입했다."
+  },
+  {
+    "term": "래퍼곡선",
+    "english": "Laffer Curve",
+    "definition": "세율과 세수 간의 관계를 나타낸 곡선으로, 일정 수준 이상의 세율은 오히려 세수를 감소시킨다는 이론이다.",
+    "category": "조세정책",
+    "related_terms": [
+      "조세수입",
+      "최적세율"
+    ],
+    "example": "과도한 세금은 경제활동을 위축시켜 세수 감소로 이어질 수 있다는 점에서 래퍼곡선 이론이 자주 언급된다."
+  },
+  {
+    "term": "레버리지비율",
+    "english": "Leverage Ratio",
+    "definition": "자기자본 대비 부채의 비율로, 기업이나 금융기관의 재무 건전성을 판단하는 지표다.",
+    "category": "재무/회계",
+    "related_terms": [
+      "부채비율",
+      "자기자본비율"
+    ],
+    "example": "레버리지비율이 높을수록 수익성은 커질 수 있지만 동시에 위험성도 증가한다."
+  },
+  {
+    "term": "리디노미네이션",
+    "english": "Redenomination",
+    "definition": "화폐 단위를 변경하거나 숫자를 줄여 새로운 화폐 단위를 도입하는 것을 말한다.",
+    "category": "화폐제도",
+    "related_terms": [
+      "통화개혁",
+      "인플레이션",
+      "디노미네이션"
+    ],
+    "example": "리디노미네이션은 화폐의 가치를 바꾸는 것이 아니라 단위를 변경하는 조치에 불과하다."
+  },
+  {
+    "term": "매몰비용",
+    "english": "Sunk Cost",
+    "definition": "이미 지출되어 회수할 수 없는 비용으로, 향후 의사결정에 반영하지 않아야 하는 비용이다.",
+    "category": "미시경제/의사결정",
+    "related_terms": [
+      "기회비용",
+      "한계비용"
+    ],
+    "example": "매몰비용에 집착하면 비효율적인 프로젝트를 계속 추진하는 오류를 범할 수 있다."
+  },
+  {
+    "term": "명목GDP목표제",
+    "english": "Nominal GDP Targeting",
+    "definition": "중앙은행이 명목 GDP 성장률을 목표로 설정하고 통화정책을 운영하는 방식이다.",
+    "category": "통화정책",
+    "related_terms": [
+      "GDP갭",
+      "인플레이션 목표제"
+    ],
+    "example": "명목GDP목표제는 물가와 성장률을 동시에 고려해 경제 안정성을 추구한다."
+  },
+  {
+    "term": "모기지대출",
+    "english": "Mortgage Loan",
+    "definition": "부동산을 담보로 하는 장기 주택자금 대출을 의미한다.",
+    "category": "금융/부동산",
+    "related_terms": [
+      "주택담보대출",
+      "LTV",
+      "DSR"
+    ],
+    "example": "모기지대출은 금리 인상기에는 상환 부담이 커질 수 있다."
+  },
+  {
+    "term": "무디스",
+    "english": "Moody's",
+    "definition": "국제적으로 영향력 있는 미국의 신용평가 기관 중 하나다.",
+    "category": "금융기관/신용평가",
+    "related_terms": [
+      "S&P",
+      "Fitch",
+      "신용등급"
+    ],
+    "example": "무디스는 한국의 국가신용등급을 'Aa2'로 평가하고 있다."
+  },
+  {
+    "term": "미발행화폐",
+    "english": "Unissued Currency",
+    "definition": "법정화폐로 인쇄되었지만 중앙은행이 아직 유통시키지 않은 화폐이다.",
+    "category": "화폐제도",
+    "related_terms": [
+      "통화공급",
+      "중앙은행"
+    ],
+    "example": "미발행화폐는 유통 전 상태로, 통화량 조절의 한 수단으로 활용된다."
+  },
+  {
+    "term": "발행시장",
+    "english": "Primary Market",
+    "definition": "기업이나 정부가 새로운 증권을 최초로 발행하여 투자자에게 판매하는 시장이다.",
+    "category": "금융/증권",
+    "related_terms": [
+      "유통시장",
+      "IPO",
+      "증권발행"
+    ],
+    "example": "기업은 자금을 조달하기 위해 발행시장에서 주식을 최초로 공개한다."
+  },
+  {
+    "term": "밴드웨건효과",
+    "english": "Bandwagon Effect",
+    "definition": "다수가 선택한 대상을 따라 선택하게 되는 현상으로, 유행에 편승하는 소비 심리를 의미한다.",
+    "category": "소비/행동경제",
+    "related_terms": [
+      "소비심리",
+      "따라하기 소비",
+      "확증편향"
+    ],
+    "example": "유명 연예인이 입은 옷이 인기를 끄는 것은 밴드웨건효과의 예시다."
+  },
+  {
+    "term": "변동금리부채권(FRN)",
+    "english": "Floating Rate Note (FRN)",
+    "definition": "이자율이 시장금리에 따라 변동되는 채권으로, 금리 변동에 따라 수익률이 달라진다.",
+    "category": "금융/채권",
+    "related_terms": [
+      "고정금리채권",
+      "국채",
+      "시장금리"
+    ],
+    "example": "FRN은 금리 상승기에 투자자에게 유리한 금융 상품으로 평가된다."
+  },
+  {
+    "term": "보호무역주의",
+    "english": "Protectionism",
+    "definition": "자국 산업을 보호하기 위해 무역 장벽을 높이는 정책을 말한다.",
+    "category": "국제무역",
+    "related_terms": [
+      "자유무역",
+      "관세",
+      "수입쿼터"
+    ],
+    "example": "세계 경제 불황 시기에 보호무역주의가 다시 확산될 수 있다."
+  },
+  {
+    "term": "본원통화",
+    "english": "Monetary Base",
+    "definition": "중앙은행이 직접 공급하는 통화로, 시중 통화량의 기초가 되는 돈이다.",
+    "category": "거시경제/통화정책",
+    "related_terms": [
+      "지급준비금",
+      "M1",
+      "M2"
+    ],
+    "example": "본원통화가 증가하면 시중은행의 대출 여력이 확대된다."
+  },
+  {
+    "term": "부가가치유발계수/부가가치계수",
+    "english": "Value-Added Inducement Coefficient",
+    "definition": "최종 수요가 1단위 증가할 때 직간접적으로 유발되는 부가가치의 크기를 나타내는 계수다.",
+    "category": "산업연관분석",
+    "related_terms": [
+      "생산유발계수",
+      "고용유발계수"
+    ],
+    "example": "부가가치유발계수는 산업별 경제적 파급 효과를 분석할 때 사용된다."
+  },
+  {
+    "term": "불완전경쟁시장",
+    "english": "Imperfect Competition Market",
+    "definition": "소수 기업이 시장을 지배하거나 제품 차별화가 있는 시장 구조로, 완전경쟁과 대비된다.",
+    "category": "미시경제/시장구조",
+    "related_terms": [
+      "완전경쟁시장",
+      "독점",
+      "과점"
+    ],
+    "example": "통신 산업은 불완전경쟁시장의 대표적인 사례다."
+  },
+  {
+    "term": "브릭스",
+    "english": "BRICS",
+    "definition": "브라질, 러시아, 인도, 중국, 남아프리카공화국 등 신흥 경제 5개국을 지칭한다.",
+    "category": "국제경제",
+    "related_terms": [
+      "G7",
+      "신흥국",
+      "다극화"
+    ],
+    "example": "브릭스 국가들은 세계 경제의 새로운 성장 동력으로 주목받고 있다."
+  },
+  {
+    "term": "비관측경제(NOE)",
+    "english": "Non-Observed Economy (NOE)",
+    "definition": "공식 통계에 잡히지 않는 음성경제나 비공식 경제활동을 포함한 경제 부문이다.",
+    "category": "거시경제/통계",
+    "related_terms": [
+      "지하경제",
+      "비공식부문"
+    ],
+    "example": "비관측경제 규모가 클 경우 국가 통계의 정확성이 떨어질 수 있다."
+  },
+  {
+    "term": "빅데이터",
+    "english": "Big Data",
+    "definition": "정형, 비정형 데이터를 포함한 방대한 양의 데이터를 수집·저장·분석하는 기술 및 개념이다.",
+    "category": "디지털경제",
+    "related_terms": [
+      "AI",
+      "데이터마이닝",
+      "클라우드 컴퓨팅"
+    ],
+    "example": "금융기관은 고객 맞춤형 서비스를 위해 빅데이터를 적극 활용한다."
+  },
+  {
+    "term": "사전담보제",
+    "english": "Advance Collateral System",
+    "definition": "금융기관이 대출을 실행하기 전에 담보를 미리 확보하는 제도이다.",
+    "category": "금융/신용",
+    "related_terms": [
+      "담보대출",
+      "신용보증제도"
+    ],
+    "example": "사전담보제를 통해 대출 리스크를 낮추고 안정적인 자금 운용이 가능하다."
+  },
+  {
+    "term": "사회보장제도",
+    "english": "Social Security System",
+    "definition": "국가가 국민의 삶의 질 보장을 위해 운영하는 연금, 의료, 실업, 재해 등의 복지 제도를 말한다.",
+    "category": "복지/노동",
+    "related_terms": [
+      "국민연금",
+      "건강보험",
+      "실업급여"
+    ],
+    "example": "사회보장제도는 경제 불안정 시 국민 생활을 안정시키는 역할을 한다."
+  },
+  {
+    "term": "상계관세",
+    "english": "Countervailing Duty",
+    "definition": "수입품이 보조금을 받아 가격이 부당하게 낮을 경우, 그 차이를 상쇄하기 위해 부과하는 관세이다.",
+    "category": "국제무역/관세",
+    "related_terms": [
+      "덤핑관세",
+      "보복관세",
+      "수입규제"
+    ],
+    "example": "정부는 자국 산업 보호를 위해 상계관세를 부과하기로 결정했다."
+  },
+  {
+    "term": "상품공동기금(CFC)",
+    "english": "Common Fund for Commodities (CFC)",
+    "definition": "개발도상국의 주요 수출 원자재 가격 안정을 위해 설립된 국제기금이다.",
+    "category": "국제금융/기구",
+    "related_terms": [
+      "IMF",
+      "UNCTAD",
+      "원자재시장"
+    ],
+    "example": "CFC는 상품 가격 하락 시 개발도상국의 충격 완화를 지원한다."
+  },
+  {
+    "term": "생산자제품재고지수",
+    "english": "Producer's Inventory Index",
+    "definition": "생산자가 보유한 완제품 재고의 변화를 측정하는 경기 지표이다.",
+    "category": "거시경제/지표",
+    "related_terms": [
+      "재고순환지표",
+      "생산자물가지수"
+    ],
+    "example": "재고가 증가하면 생산 축소 가능성을 시사하는 신호로 해석될 수 있다."
+  },
+  {
+    "term": "선물거래",
+    "english": "Futures Trading",
+    "definition": "특정 자산을 미래의 일정 시점에 미리 정한 가격으로 거래하기로 약정하는 계약이다.",
+    "category": "금융/파생상품",
+    "related_terms": [
+      "옵션거래",
+      "현물거래",
+      "헤지"
+    ],
+    "example": "농산물 가격 변동을 헤지하기 위해 선물거래를 활용한다."
+  },
+  {
+    "term": "성장기여도",
+    "english": "Growth Contribution",
+    "definition": "경제 성장률에서 각 산업 또는 요인이 차지하는 기여도를 나타내는 지표이다.",
+    "category": "거시경제/산업분석",
+    "related_terms": [
+      "GDP",
+      "성장률",
+      "산업별기여도"
+    ],
+    "example": "정보통신업의 성장기여도가 높아 전체 경제 성장률에 크게 기여했다."
+  },
+  {
+    "term": "소비자동향지수(CSI)",
+    "english": "Consumer Sentiment Index (CSI)",
+    "definition": "소비자의 경제상황에 대한 심리를 수치화한 지표로, 소비경기 예측에 활용된다.",
+    "category": "소비/심리지표",
+    "related_terms": [
+      "경제심리지수",
+      "소비자기대지수"
+    ],
+    "example": "CSI가 하락하면 소비 심리가 위축되었음을 의미한다."
+  },
+  {
+    "term": "속물효과(스놉효과)",
+    "english": "Snob Effect",
+    "definition": "다른 사람들이 소비하는 상품은 피하고, 희소하거나 고급스러운 상품을 선호하는 소비 심리이다.",
+    "category": "소비/행동경제",
+    "related_terms": [
+      "밴드웨건효과",
+      "베블런효과"
+    ],
+    "example": "속물효과로 인해 일부 소비자는 비싸고 희귀한 제품만을 찾는다."
+  },
+  {
+    "term": "수출경합도지수",
+    "english": "Export Competition Index",
+    "definition": "두 국가 간 동일 시장에서 유사 품목으로 수출이 경합하는 정도를 측정하는 지수이다.",
+    "category": "국제무역",
+    "related_terms": [
+      "수출유사도지수",
+      "무역경쟁도"
+    ],
+    "example": "중국과 한국의 수출경합도지수는 전자제품 분야에서 높게 나타난다."
+  },
+  {
+    "term": "가계수지",
+    "english": "Household Income and Expenditure",
+    "definition": "가정의 소득과 지출 상태를 나타내는 지표로, 소비와 저축의 경향을 파악하는 데 사용된다.",
+    "category": "가계경제",
+    "related_terms": [
+      "가처분소득",
+      "소비지출",
+      "저축률"
+    ],
+    "example": "가계수지 악화는 소비 위축으로 이어질 수 있다."
+  },
+  {
+    "term": "스왑",
+    "english": "Swap",
+    "definition": "서로 다른 조건의 금융 상품이나 자산을 교환하는 거래 방식이다.",
+    "category": "금융/파생상품",
+    "related_terms": [
+      "금리스왑",
+      "통화스왑",
+      "옵션"
+    ],
+    "example": "금리 변동 위험을 회피하기 위해 기업 간 스왑 계약이 체결된다."
+  },
+  {
+    "term": "신용레버리지",
+    "english": "Credit Leverage",
+    "definition": "차입을 통해 자기자본 이상의 자금을 운용하여 수익률을 높이려는 전략이다.",
+    "category": "금융/투자",
+    "related_terms": [
+      "레버리지",
+      "부채비율",
+      "위험관리"
+    ],
+    "example": "과도한 신용레버리지는 금융위기를 초래할 수 있다."
+  },
+  {
+    "term": "신용창조",
+    "english": "Credit Creation",
+    "definition": "은행이 예금을 대출함으로써 새로운 통화를 창출하는 과정을 의미한다.",
+    "category": "통화정책",
+    "related_terms": [
+      "지급준비율",
+      "예대마진",
+      "통화승수"
+    ],
+    "example": "신용창조는 시중 통화량을 증가시키는 중요한 메커니즘이다."
+  },
+  {
+    "term": "신용환산율",
+    "english": "Credit Conversion Factor",
+    "definition": "잠재적인 외부채무가 실제 신용위험으로 전환될 확률을 반영한 비율이다.",
+    "category": "금융/위험평가",
+    "related_terms": [
+      "위험가중자산",
+      "BIS비율"
+    ],
+    "example": "은행은 신용환산율을 반영해 대출에 대한 자본적정성을 평가한다."
+  },
+  {
+    "term": "실물화폐/명목화폐",
+    "english": "Commodity Money / Fiat Money",
+    "definition": "실물화폐는 금처럼 고유 가치를 지닌 화폐이고, 명목화폐는 정부의 신뢰에 기반한 법정 화폐다.",
+    "category": "화폐이론",
+    "related_terms": [
+      "전자화폐",
+      "통화제도",
+      "금본위제"
+    ],
+    "example": "현대 경제에서는 실물화폐보다 명목화폐가 통용되고 있다."
+  },
+  {
+    "term": "실효환율",
+    "english": "Effective Exchange Rate",
+    "definition": "교역 상대국의 통화와 비교한 환율로, 한 나라의 통화가치 전반적인 수준을 반영한다.",
+    "category": "환율",
+    "related_terms": [
+      "명목환율",
+      "실질실효환율",
+      "외환시장"
+    ],
+    "example": "실효환율이 상승하면 수출경쟁력이 낮아질 수 있다."
+  },
+  {
+    "term": "가동률",
+    "english": "Capacity Utilization Rate",
+    "definition": "공장의 설비 중 실제로 사용되는 비율로, 생산활동의 활발함을 보여주는 지표이다.",
+    "category": "산업지표",
+    "related_terms": [
+      "설비투자",
+      "생산지수"
+    ],
+    "example": "경기 침체 시 가동률이 급격히 하락할 수 있다."
+  },
+  {
+    "term": "아시아인프라은행(AIIB)",
+    "english": "Asian Infrastructure Investment Bank (AIIB)",
+    "definition": "아시아 지역의 인프라 개발을 지원하기 위해 설립된 다자간 개발은행이다.",
+    "category": "국제기구/개발금융",
+    "related_terms": [
+      "세계은행",
+      "ADB",
+      "인프라개발"
+    ],
+    "example": "AIIB는 신흥국의 도로, 철도 건설 프로젝트에 자금을 지원한다."
+  },
+  {
+    "term": "양도성예금증서(CD)",
+    "english": "Negotiable Certificate of Deposit (CD)",
+    "definition": "정해진 만기일에 고정된 이자를 지급하는 은행 발행의 무기명 정기예금 증서이다.",
+    "category": "금융상품",
+    "related_terms": [
+      "정기예금",
+      "CP",
+      "MMF"
+    ],
+    "example": "CD는 단기 자금 운용 수단으로 기관투자자들이 자주 이용한다."
+  },
+  {
+    "term": "업무지속계획",
+    "english": "Business Continuity Plan (BCP)",
+    "definition": "재해나 위기 상황 발생 시에도 핵심 업무를 지속할 수 있도록 마련한 대응 계획이다.",
+    "category": "경영/리스크관리",
+    "related_terms": [
+      "위기관리",
+      "재해복구계획",
+      "비상대응"
+    ],
+    "example": "금융사는 사이버 공격에 대비해 업무지속계획을 수립하고 있다."
+  },
+  {
+    "term": "여신전문금융회사",
+    "english": "Specialized Credit Finance Company",
+    "definition": "할부금융, 리스, 신용카드 등 특정 금융 서비스를 전문적으로 제공하는 금융기관이다.",
+    "category": "금융기관",
+    "related_terms": [
+      "신용카드사",
+      "리스회사",
+      "할부금융사"
+    ],
+    "example": "여신전문금융회사는 기업의 설비투자를 지원하는 역할을 한다."
+  },
+  {
+    "term": "역외펀드",
+    "english": "Offshore Fund",
+    "definition": "국내 투자자가 외국의 금융시장이나 역외 금융센터에 설정한 투자 펀드이다.",
+    "category": "금융/투자",
+    "related_terms": [
+      "역내펀드",
+      "세제우대지역",
+      "해외자산운용"
+    ],
+    "example": "세제 회피 목적으로 역외펀드를 활용하는 사례도 있다."
+  },
+  {
+    "term": "영업잉여",
+    "english": "Operating Surplus",
+    "definition": "기업이 본원적 활동을 통해 창출한 수익에서 비용을 차감하고 남은 이익이다.",
+    "category": "회계/기업재무",
+    "related_terms": [
+      "영업이익",
+      "순이익",
+      "EBITDA"
+    ],
+    "example": "영업잉여는 기업의 생산성과 수익성을 판단하는 지표로 사용된다."
+  },
+  {
+    "term": "예상손실",
+    "english": "Expected Loss",
+    "definition": "대출이나 투자에서 통계적으로 예측 가능한 평균 손실 금액이다.",
+    "category": "금융/리스크관리",
+    "related_terms": [
+      "비용충당금",
+      "신용위험",
+      "손실률"
+    ],
+    "example": "은행은 예상손실을 반영해 대출금에 대한 충당금을 설정한다."
+  },
+  {
+    "term": "완충자본",
+    "english": "Capital Buffer",
+    "definition": "위기 시 금융기관이 손실을 흡수할 수 있도록 법적 기준보다 여유 있게 보유하는 자기자본이다.",
+    "category": "금융규제",
+    "related_terms": [
+      "BIS비율",
+      "자기자본비율",
+      "위험가중자산"
+    ],
+    "example": "금융위기 이후 각국은 은행의 완충자본 요건을 강화했다."
+  },
+  {
+    "term": "외국환평형기금",
+    "english": "Foreign Exchange Equalization Fund",
+    "definition": "환율 급등락을 방지하고 외환시장 안정을 도모하기 위해 조성된 정부 기금이다.",
+    "category": "외환/통화정책",
+    "related_terms": [
+      "외환보유액",
+      "시장개입",
+      "환율안정"
+    ],
+    "example": "정부는 외국환평형기금을 통해 급격한 환율 변동에 대응한다."
+  },
+  {
+    "term": "외부효과",
+    "english": "Externality",
+    "definition": "개인의 경제 활동이 의도치 않게 제3자에게 이익이나 손해를 주는 현상이다.",
+    "category": "미시경제학",
+    "related_terms": [
+      "양(+)의 외부효과",
+      "음(-)의 외부효과",
+      "시장실패"
+    ],
+    "example": "공장의 매연은 외부효과로 인해 인근 주민에게 건강 피해를 준다."
+  },
+  {
+    "term": "가상통화",
+    "english": "Virtual Currency",
+    "definition": "법정 화폐가 아닌 디지털 형태의 통화로, 온라인에서만 사용되며 국가의 보증이 없다.",
+    "category": "디지털경제/화폐",
+    "related_terms": [
+      "암호화폐",
+      "비트코인",
+      "중앙은행 디지털화폐"
+    ],
+    "example": "가상통화는 법정화폐와 달리 가격 변동성이 크다."
+  },
+  {
+    "term": "외환결제리스크",
+    "english": "Foreign Exchange Settlement Risk",
+    "definition": "외환 거래 시 한쪽이 지급을 이행하지 않아 발생하는 손실 위험이다.",
+    "category": "외환/리스크관리",
+    "related_terms": [
+      "헤지",
+      "CLS은행",
+      "결제시스템"
+    ],
+    "example": "시차로 인해 외환결제리스크가 발생할 수 있으므로 국제 결제 시스템이 중요하다."
+  },
+  {
+    "term": "외환시장",
+    "english": "Foreign Exchange Market",
+    "definition": "서로 다른 통화를 매매하는 시장으로, 환율이 결정되고 외환 거래가 이루어진다.",
+    "category": "외환/통화",
+    "related_terms": [
+      "환율",
+      "스팟거래",
+      "선물환"
+    ],
+    "example": "외환시장에서 원화가치가 하락하면 수출기업은 수익을 얻을 수 있다."
+  },
+  {
+    "term": "우발부채(채무)",
+    "english": "Contingent Liability",
+    "definition": "현재는 부채로 확정되지 않았지만 미래의 특정 사건에 따라 발생할 수 있는 부채이다.",
+    "category": "회계/재무",
+    "related_terms": [
+      "보증채무",
+      "잠재부채",
+      "재무제표"
+    ],
+    "example": "정부의 공기업 보증은 대표적인 우발부채에 해당된다."
+  },
+  {
+    "term": "워크아웃",
+    "english": "Workout",
+    "definition": "부실기업이 법정관리를 피하기 위해 채권단과 자율적으로 구조조정을 진행하는 제도이다.",
+    "category": "기업재무/부실관리",
+    "related_terms": [
+      "법정관리",
+      "구조조정",
+      "채무조정"
+    ],
+    "example": "IMF 위기 당시 많은 기업들이 워크아웃을 통해 재무 구조를 개선했다."
+  },
+  {
+    "term": "위험기준자기자본비율(RBC비율)",
+    "english": "Risk-Based Capital Ratio (RBC)",
+    "definition": "보험사가 보유한 자기자본이 예상 위험에 대비해 충분한지를 평가하는 비율이다.",
+    "category": "금융/보험",
+    "related_terms": [
+      "BIS비율",
+      "건전성비율",
+      "위험가중자산"
+    ],
+    "example": "RBC비율이 낮을 경우 보험사는 자본 확충 압박을 받게 된다."
+  },
+  {
+    "term": "유동성딜레마",
+    "english": "Liquidity Dilemma",
+    "definition": "유동성을 확보하려는 경제 주체들의 움직임이 오히려 금융시장 불안을 야기하는 현상이다.",
+    "category": "금융/위기관리",
+    "related_terms": [
+      "뱅크런",
+      "시장유동성",
+      "금융위기"
+    ],
+    "example": "위기 시 유동성딜레마는 대규모 자산매각과 금리 급등을 초래할 수 있다."
+  },
+  {
+    "term": "유럽연합(EU)",
+    "english": "European Union (EU)",
+    "definition": "유럽 27개국이 정치·경제적으로 통합을 이룬 지역 협력체이다.",
+    "category": "국제경제",
+    "related_terms": [
+      "유로존",
+      "EU집행위원회",
+      "단일시장"
+    ],
+    "example": "EU는 공동통화를 도입하고 역내 무역장벽을 제거했다."
+  },
+  {
+    "term": "유리보(EURIBOR)",
+    "english": "Euro Interbank Offered Rate (EURIBOR)",
+    "definition": "유로화 기반의 단기 자금을 은행 간에 빌릴 때 적용되는 금리이다.",
+    "category": "금융/금리",
+    "related_terms": [
+      "리보",
+      "기준금리",
+      "시장금리"
+    ],
+    "example": "유리보는 유럽 자금시장의 기준금리 역할을 한다."
+  },
+  {
+    "term": "감응도계수",
+    "english": "Sensitivity Coefficient",
+    "definition": "경제 변수의 변화에 따른 또 다른 변수의 민감도를 수치화한 계수이다.",
+    "category": "경제지표/통계",
+    "related_terms": [
+      "탄력성",
+      "계수분석",
+      "상관계수"
+    ],
+    "example": "소득의 변화에 대한 소비의 반응은 감응도계수로 분석할 수 있다."
+  },
+  {
+    "term": "인구고령화",
+    "english": "Population Aging",
+    "definition": "전체 인구 중에서 고령자 비율이 점차 증가하는 현상을 말한다.",
+    "category": "사회경제",
+    "related_terms": [
+      "생산가능인구",
+      "고령화사회",
+      "연금제도"
+    ],
+    "example": "인구고령화는 복지 지출 증가와 노동력 부족 문제를 초래한다."
+  },
+  {
+    "term": "입금이체",
+    "english": "Credit Transfer",
+    "definition": "지급인의 계좌에서 자금을 출금하여 수취인의 계좌로 이체하는 금융 서비스이다.",
+    "category": "결제/금융서비스",
+    "related_terms": [
+      "자동이체",
+      "계좌이체",
+      "지급결제"
+    ],
+    "example": "인터넷 뱅킹을 통한 입금이체는 금융 거래의 기본 방식이다."
+  },
+  {
+    "term": "자금조달비용지수(COFIX)",
+    "english": "Cost of Funds Index (COFIX)",
+    "definition": "국내 8개 은행의 실제 자금조달 비용을 가중 평균하여 산출한 기준금리 지표이다.",
+    "category": "금융/금리",
+    "related_terms": [
+      "기준금리",
+      "시장금리",
+      "은행금리"
+    ],
+    "example": "변동금리 대출의 기준으로 COFIX 금리가 자주 사용된다."
+  },
+  {
+    "term": "자본거래자유화",
+    "english": "Capital Account Liberalization",
+    "definition": "해외 자본의 유입·유출을 자유롭게 허용하는 제도적 변화이다.",
+    "category": "국제금융",
+    "related_terms": [
+      "자본시장",
+      "자본이동",
+      "국경간투자"
+    ],
+    "example": "자본거래자유화는 투자 확대와 함께 급격한 자본 유출입 위험도 수반한다."
+  },
+  {
+    "term": "자본적정성",
+    "english": "Capital Adequacy",
+    "definition": "금융기관이 손실을 감당할 수 있는 충분한 자기자본을 보유하고 있는지를 나타내는 개념이다.",
+    "category": "금융건전성",
+    "related_terms": [
+      "BIS비율",
+      "RBC비율",
+      "위험가중자산"
+    ],
+    "example": "자본적정성 확보는 금융기관의 신뢰성과 건전성 유지에 핵심적이다."
+  },
+  {
+    "term": "자연실업률",
+    "english": "Natural Rate of Unemployment",
+    "definition": "물가 안정 상태에서도 존재하는 구조적·마찰적 실업을 포함한 실업률이다.",
+    "category": "거시경제",
+    "related_terms": [
+      "실업률",
+      "완전고용",
+      "NAIRU"
+    ],
+    "example": "정부가 실업률을 자연실업률 이하로 낮추려 할 경우 인플레이션이 유발될 수 있다."
+  },
+  {
+    "term": "잠상",
+    "english": "Latent Image",
+    "definition": "지폐나 증권에 위조 방지를 위해 삽입된, 특정 각도에서만 보이는 그림이나 문양이다.",
+    "category": "화폐/보안",
+    "related_terms": [
+      "위조방지",
+      "홀로그램",
+      "숨은그림"
+    ],
+    "example": "잠상은 지폐를 기울였을 때 나타나는 문양으로 위조를 어렵게 만든다."
+  },
+  {
+    "term": "장내시장",
+    "english": "Exchange Market",
+    "definition": "증권거래소와 같이 공인된 시장에서 거래되는 정규 주식·채권 시장이다.",
+    "category": "금융시장",
+    "related_terms": [
+      "장외시장",
+      "증권거래소",
+      "코스피"
+    ],
+    "example": "장내시장에서는 상장된 주식들이 정해진 규칙에 따라 거래된다."
+  },
+  {
+    "term": "재산소득",
+    "english": "Property Income",
+    "definition": "이자, 배당, 임대료 등 자산 보유로부터 얻는 소득이다.",
+    "category": "소득/분배",
+    "related_terms": [
+      "근로소득",
+      "사업소득",
+      "불로소득"
+    ],
+    "example": "재산소득은 자본을 보유한 계층의 소득 불평등을 유발할 수 있다."
+  },
+  {
+    "term": "결제",
+    "english": "Settlement",
+    "definition": "금융 거래가 완료되어 자금이나 상품의 실질적 이전이 발생하는 행위이다.",
+    "category": "금융/지급결제",
+    "related_terms": [
+      "청산",
+      "지급",
+      "이체"
+    ],
+    "example": "주식 거래에서 결제는 통상 T+2일에 이루어진다."
+  },
+  {
+    "term": "저축률/총저축/평균소비성향/평균저축성향",
+    "english": "Saving Rate / Total Saving / APC / APS",
+    "definition": "개인의 소득 중 저축으로 전환된 비율과 소비와 저축 성향을 나타내는 지표들이다.",
+    "category": "거시경제/소득지표",
+    "related_terms": [
+      "가처분소득",
+      "소비지출",
+      "저축"
+    ],
+    "example": "가계의 평균저축성향이 높아지면 소비 위축으로 이어질 수 있다."
+  },
+  {
+    "term": "전산업생산지수",
+    "english": "Index of All Industry Production",
+    "definition": "광공업, 서비스업, 건설업 등 전체 산업의 생산 동향을 종합적으로 나타낸 지표이다.",
+    "category": "경제지표",
+    "related_terms": [
+      "광공업생산지수",
+      "경기지표",
+      "GDP"
+    ],
+    "example": "전산업생산지수는 경기 전반의 흐름을 파악하는 데 유용하다."
+  },
+  {
+    "term": "전자상거래",
+    "english": "E-Commerce",
+    "definition": "인터넷 등 전자적 매체를 이용해 상품이나 서비스를 사고파는 거래 방식이다.",
+    "category": "디지털경제",
+    "related_terms": [
+      "온라인쇼핑",
+      "전자지불",
+      "디지털플랫폼"
+    ],
+    "example": "코로나19 이후 전자상거래 시장 규모가 급속히 성장했다."
+  },
+  {
+    "term": "전자지급결제대행",
+    "english": "Payment Gateway (PG)",
+    "definition": "온라인에서 상품 구매 시 결제 과정의 인증과 처리를 대신 수행해주는 서비스이다.",
+    "category": "금융/지급결제",
+    "related_terms": [
+      "전자결제",
+      "핀테크",
+      "PG사"
+    ],
+    "example": "전자지급결제대행사를 통해 소비자는 간편하게 온라인 결제를 마칠 수 있다."
+  },
+  {
+    "term": "정규직/비정규직",
+    "english": "Regular / Non-Regular Employment",
+    "definition": "정규직은 일정한 고용기간과 복지 혜택이 보장된 반면, 비정규직은 기간제·시간제 등 고용이 불안정한 형태이다.",
+    "category": "노동/고용",
+    "related_terms": [
+      "계약직",
+      "파견근로",
+      "고용형태"
+    ],
+    "example": "노동시장에서 정규직과 비정규직 간 임금 격차가 사회적 이슈가 되고 있다."
+  },
+  {
+    "term": "정책시차",
+    "english": "Policy Lag",
+    "definition": "경제정책이 시행된 이후 실제 효과가 나타나기까지의 시간 지연을 말한다.",
+    "category": "거시경제/정책",
+    "related_terms": [
+      "인식시차",
+      "집행시차",
+      "효과시차"
+    ],
+    "example": "정책시차 때문에 경기부양책의 효과는 수개월 후에야 나타날 수 있다."
+  },
+  {
+    "term": "제로금리정책",
+    "english": "Zero Interest Rate Policy (ZIRP)",
+    "definition": "경기 부양을 위해 중앙은행이 기준금리를 0% 수준까지 낮추는 통화정책이다.",
+    "category": "통화정책",
+    "related_terms": [
+      "양적완화",
+      "기준금리",
+      "유동성공급"
+    ],
+    "example": "일본은 장기 불황 극복을 위해 제로금리정책을 시행했다."
+  },
+  {
+    "term": "조세부담률",
+    "english": "Tax Burden Ratio",
+    "definition": "국내총생산(GDP) 대비 국민이 실제 부담하는 조세의 비율을 의미한다.",
+    "category": "재정/세제",
+    "related_terms": [
+      "조세",
+      "GDP",
+      "국세/지방세"
+    ],
+    "example": "조세부담률이 높아지면 가계의 소비 여력에 영향을 줄 수 있다."
+  },
+  {
+    "term": "주가수익비율(PER)",
+    "english": "Price Earnings Ratio (PER)",
+    "definition": "주가를 주당순이익(EPS)으로 나눈 수치로, 기업의 수익성 대비 주가 수준을 나타낸다.",
+    "category": "투자/재무지표",
+    "related_terms": [
+      "PBR",
+      "ROE",
+      "EPS"
+    ],
+    "example": "PER이 높다는 것은 시장이 해당 기업의 미래 성장성을 높게 평가하고 있음을 의미할 수 있다."
+  },
+  {
+    "term": "주가지수옵션",
+    "english": "Index Option",
+    "definition": "특정 주가지수를 기초자산으로 하여 미래의 가격에 따라 이익을 얻을 수 있는 파생상품이다.",
+    "category": "파생상품",
+    "related_terms": [
+      "선물",
+      "옵션",
+      "헤지"
+    ],
+    "example": "주가지수옵션은 투자자의 위험 회피 수단으로 활용된다."
+  },
+  {
+    "term": "겸업주의/전업주의",
+    "english": "Universal Banking / Specialized Banking",
+    "definition": "겸업주의는 은행이 다양한 금융업을 동시에 수행하는 방식이고, 전업주의는 특정 금융업에만 집중하는 방식이다.",
+    "category": "금융제도",
+    "related_terms": [
+      "금융규제",
+      "은행업",
+      "복합금융그룹"
+    ],
+    "example": "미국은 전통적으로 전업주의를 채택하다가 금융자유화 이후 겸업주의로 전환하였다."
+  },
+  {
+    "term": "주택저당증권(MBS)",
+    "english": "Mortgage-Backed Securities (MBS)",
+    "definition": "주택담보대출을 기초자산으로 하여 발행된 유동화 증권이다.",
+    "category": "금융/부동산",
+    "related_terms": [
+      "ABS",
+      "유동화",
+      "서브프라임"
+    ],
+    "example": "2008년 금융위기의 원인 중 하나는 부실한 MBS가 금융시장에서 대량 거래된 것이었다."
+  },
+  {
+    "term": "중앙거래당사자",
+    "english": "Central Counterparty (CCP)",
+    "definition": "금융 거래에서 매도자에게는 매수자로, 매수자에게는 매도자로 개입하여 거래의 이행을 보장하는 기관이다.",
+    "category": "금융시장 인프라",
+    "related_terms": [
+      "청산소",
+      "위험관리",
+      "증권결제"
+    ],
+    "example": "중앙거래당사자는 거래 당사자 간 디폴트 위험을 줄이기 위한 안전장치 역할을 한다."
+  },
+  {
+    "term": "지급준비자산제도",
+    "english": "Reserve Requirement System",
+    "definition": "은행이 예금액의 일정 비율을 중앙은행에 예치하도록 한 제도이다.",
+    "category": "통화정책",
+    "related_terms": [
+      "지급준비율",
+      "통화공급",
+      "기준금리"
+    ],
+    "example": "지급준비율을 조정함으로써 중앙은행은 시중 통화량을 조절할 수 있다."
+  },
+  {
+    "term": "지방은행공동망",
+    "english": "Regional Bank Network",
+    "definition": "지방은행 간 계좌이체 및 금융서비스를 공동으로 제공하기 위한 전산망 시스템이다.",
+    "category": "금융 인프라",
+    "related_terms": [
+      "금융결제망",
+      "은행전산망",
+      "지방은행"
+    ],
+    "example": "지방은행공동망 덕분에 지역 간 이체와 거래가 원활하게 처리된다."
+  },
+  {
+    "term": "지정시점처리제도",
+    "english": "Designated-Time Net Settlement",
+    "definition": "일정 시점에 다수의 거래를 일괄 정산하는 방식으로 금융결제 리스크를 줄이는 제도이다.",
+    "category": "지급결제",
+    "related_terms": [
+      "실시간총액결제",
+      "청산",
+      "결제리스크"
+    ],
+    "example": "지정시점처리는 금융시장의 결제 안정성을 높이기 위한 제도이다."
+  },
+  {
+    "term": "진성어음/융통어음",
+    "english": "Genuine Bill / Accommodation Bill",
+    "definition": "진성어음은 실제 거래에 기반한 어음이고, 융통어음은 자금 조달을 목적으로 형식적으로 발행된 어음이다.",
+    "category": "어음/결제",
+    "related_terms": [
+      "기업어음",
+      "어음할인",
+      "상업어음"
+    ],
+    "example": "융통어음은 부실기업 자금 조달 수단으로 남용될 위험이 있다."
+  },
+  {
+    "term": "채권시장",
+    "english": "Bond Market",
+    "definition": "정부나 기업이 발행한 채권이 거래되는 시장이다.",
+    "category": "금융시장",
+    "related_terms": [
+      "국채",
+      "회사채",
+      "이자율"
+    ],
+    "example": "채권시장은 투자자의 안정적 수익 확보 수단으로 활용된다."
+  },
+  {
+    "term": "총고정자본형성",
+    "english": "Gross Fixed Capital Formation",
+    "definition": "건설, 설비 등 고정자산에 대한 투자 규모를 나타내는 지표이다.",
+    "category": "국민계정",
+    "related_terms": [
+      "투자",
+      "자본형성",
+      "국민소득"
+    ],
+    "example": "총고정자본형성의 증가는 장기적인 경제 성장 잠재력을 반영한다."
+  },
+  {
+    "term": "최종수요/중간수요",
+    "english": "Final Demand / Intermediate Demand",
+    "definition": "최종수요는 소비, 투자, 수출 등의 최종 사용 목적의 수요이고, 중간수요는 생산과정에 투입되는 수요이다.",
+    "category": "국민계정/수요분석",
+    "related_terms": [
+      "GDP",
+      "산업연관표",
+      "총수요"
+    ],
+    "example": "중간수요는 생산유발효과 분석에 중요한 변수이다."
+  },
+  {
+    "term": "출자총액제한제도",
+    "english": "Total Equity Investment Limit",
+    "definition": "대기업의 계열사 간 과도한 출자 확장을 방지하기 위한 규제 제도이다.",
+    "category": "공정거래/재벌규제",
+    "related_terms": [
+      "지배구조",
+      "순환출자",
+      "경제력 집중"
+    ],
+    "example": "출자총액제한제도는 재벌의 문어발식 확장을 억제하기 위한 장치였다."
+  },
+  {
+    "term": "캐리트레이드",
+    "english": "Carry Trade",
+    "definition": "금리가 낮은 국가에서 자금을 조달해 금리가 높은 국가에 투자하는 외환 거래 전략이다.",
+    "category": "국제금융",
+    "related_terms": [
+      "환차익",
+      "금리차",
+      "외환시장"
+    ],
+    "example": "캐리트레이드는 환율 변동성 확대 시 손실 위험이 커진다."
+  },
+  {
+    "term": "코리보",
+    "english": "KORIBOR (Korea Interbank Offered Rate)",
+    "definition": "국내 은행 간 자금 거래에 적용되는 기준금리로, 금융기관 간 단기 자금 조달에 활용된다.",
+    "category": "금융지표",
+    "related_terms": [
+      "CD금리",
+      "기준금리",
+      "콜금리"
+    ],
+    "example": "코리보는 금융기관 간 대출의 기준이 되는 중요한 지표이다."
+  },
+  {
+    "term": "크라우드펀딩",
+    "english": "Crowdfunding",
+    "definition": "인터넷 플랫폼을 통해 다수의 개인으로부터 자금을 모으는 금융 방식이다.",
+    "category": "스타트업/금융혁신",
+    "related_terms": [
+      "핀테크",
+      "소셜펀딩",
+      "P2P대출"
+    ],
+    "example": "신생 기업이 크라우드펀딩으로 초기 자금을 조달했다."
+  },
+  {
+    "term": "통상임금",
+    "english": "Ordinary Wage",
+    "definition": "근로자에게 정기적·일률적·고정적으로 지급되는 기본급 성격의 임금이다.",
+    "category": "노동/임금",
+    "related_terms": [
+      "최저임금",
+      "법정수당",
+      "상여금"
+    ],
+    "example": "통상임금 기준에 따라 연장근로수당 등이 결정된다."
+  },
+  {
+    "term": "통화안정계정",
+    "english": "Monetary Stabilization Account",
+    "definition": "통화량 조절을 위해 한국은행이 운용하는 금융 중개계정으로, 금융기관의 초과자금을 흡수하는 기능을 한다.",
+    "category": "통화정책",
+    "related_terms": [
+      "공개시장조작",
+      "지급준비율",
+      "유동성조절"
+    ],
+    "example": "통화안정계정을 통해 시중 과잉 유동성이 조절된다."
+  },
+  {
+    "term": "경영평가지표",
+    "english": "Management Performance Indicators",
+    "definition": "기업의 경영성과를 종합적으로 측정하는 지표로, 수익성, 안정성, 성장성 등을 포함한다.",
+    "category": "기업재무",
+    "related_terms": [
+      "ROE",
+      "ROA",
+      "PER"
+    ],
+    "example": "ROE는 대표적인 경영평가지표 중 하나이다."
+  },
+  {
+    "term": "통화유통속도",
+    "english": "Velocity of Money",
+    "definition": "한 단위의 화폐가 일정 기간 동안 경제 내에서 얼마나 자주 거래되는지를 나타내는 지표이다.",
+    "category": "거시경제",
+    "related_terms": [
+      "화폐공급",
+      "GDP",
+      "유동성함정"
+    ],
+    "example": "경기 침체 시 통화유통속도는 낮아지는 경향이 있다."
+  },
+  {
+    "term": "투자은행",
+    "english": "Investment Bank",
+    "definition": "기업의 자금 조달, 인수합병(M&A), 증권 인수 등을 전문으로 수행하는 금융기관이다.",
+    "category": "금융기관",
+    "related_terms": [
+      "IB",
+      "M&A",
+      "IPO"
+    ],
+    "example": "투자은행은 대규모 기업공개(IPO)를 주관하는 역할을 한다."
+  },
+  {
+    "term": "특수목적기구(SPV)",
+    "english": "Special Purpose Vehicle (SPV)",
+    "definition": "자산 유동화나 위험 분산을 목적으로 설립된 독립 법인 또는 기구이다.",
+    "category": "금융공학",
+    "related_terms": [
+      "ABS",
+      "MBS",
+      "위험관리"
+    ],
+    "example": "부동산 PF사업에서는 자산을 분리하기 위해 SPV를 활용한다."
+  },
+  {
+    "term": "파생금융상품",
+    "english": "Derivative Financial Instruments",
+    "definition": "기초자산의 가격 변동에 따라 가치가 결정되는 금융상품이다.",
+    "category": "파생상품",
+    "related_terms": [
+      "선물",
+      "옵션",
+      "스왑"
+    ],
+    "example": "파생금융상품은 위험을 회피하거나 투기적 수익을 추구하는 데 사용된다."
+  },
+  {
+    "term": "평가절상",
+    "english": "Revaluation (Appreciation)",
+    "definition": "정부 또는 시장 요인으로 인해 자국 통화의 환율이 상승하는 현상이다.",
+    "category": "환율/국제무역",
+    "related_terms": [
+      "환율",
+      "절하",
+      "무역수지"
+    ],
+    "example": "원화 평가절상은 수출기업의 가격 경쟁력에 영향을 줄 수 있다."
+  },
+  {
+    "term": "프로그램매매",
+    "english": "Program Trading",
+    "definition": "주식이나 선물의 가격 차이를 이용해 컴퓨터 프로그램으로 자동 매매하는 거래 방식이다.",
+    "category": "금융시장/증권",
+    "related_terms": [
+      "차익거래",
+      "매매전략",
+      "자동매매"
+    ],
+    "example": "프로그램매매는 코스피 지수와 선물 간 괴리를 이용해 차익을 얻는다."
+  },
+  {
+    "term": "핀테크",
+    "english": "Fintech (Financial Technology)",
+    "definition": "금융과 기술의 융합을 통해 금융 서비스를 혁신하는 산업 분야이다.",
+    "category": "금융혁신",
+    "related_terms": [
+      "모바일결제",
+      "블록체인",
+      "크라우드펀딩"
+    ],
+    "example": "핀테크 기업들은 간편결제와 송금, 대출 등 다양한 서비스를 제공하고 있다."
+  },
+  {
+    "term": "한계비용",
+    "english": "Marginal Cost",
+    "definition": "생산량을 한 단위 증가시킬 때 추가로 발생하는 비용이다.",
+    "category": "미시경제학",
+    "related_terms": [
+      "총비용",
+      "평균비용",
+      "수익극대화"
+    ],
+    "example": "한계비용이 한계수입보다 작으면 생산을 늘리는 것이 이익이다."
+  },
+  {
+    "term": "경제활동인구/비경제활동인구/경제활동참가율",
+    "english": "Economically Active/Inactive Population, Labor Force Participation Rate",
+    "definition": "경제활동인구는 일할 의사와 능력이 있는 인구, 비경제활동인구는 그렇지 않은 인구이며, 참가율은 경제활동인구의 비중이다.",
+    "category": "노동시장/거시경제",
+    "related_terms": [
+      "실업률",
+      "고용률",
+      "인구구조"
+    ],
+    "example": "경제활동참가율이 높을수록 노동 시장의 참여가 활발하다는 의미다."
+  },
+  {
+    "term": "한은금융망(BOK-Wire+)",
+    "english": "BOK-Wire+",
+    "definition": "한국은행이 운영하는 실시간 총액결제 시스템으로, 대규모 자금 이체에 사용된다.",
+    "category": "지급결제시스템",
+    "related_terms": [
+      "실시간결제",
+      "지급결제",
+      "금융인프라"
+    ],
+    "example": "BOK-Wire+는 금융기관 간 대규모 이체와 채권결제에 활용된다."
+  },
+  {
+    "term": "현금자동인출기(CD)공동망",
+    "english": "Cash Dispenser (CD) Network",
+    "definition": "다른 은행의 CD/ATM 기기에서도 출금이나 조회가 가능하도록 만든 은행 간 전산망이다.",
+    "category": "금융 인프라",
+    "related_terms": [
+      "ATM",
+      "은행공동망",
+      "전자금융"
+    ],
+    "example": "CD 공동망 덕분에 고객은 어느 은행 ATM에서도 계좌를 이용할 수 있다."
+  },
+  {
+    "term": "홀로그램",
+    "english": "Hologram",
+    "definition": "3차원 이미지를 구현하는 기술로, 보안용 인증수단이나 전시, 결제 기술에 활용된다.",
+    "category": "기술/보안",
+    "related_terms": [
+      "보안기술",
+      "AR",
+      "디지털 인증"
+    ],
+    "example": "지폐의 홀로그램은 위조 방지를 위한 보안 장치로 사용된다."
+  },
+  {
+    "term": "환경계정",
+    "english": "Environmental Accounting",
+    "definition": "경제활동이 환경에 미치는 영향을 수치화하여 국민계정에 반영한 통계 체계이다.",
+    "category": "지속가능성/환경경제",
+    "related_terms": [
+      "탄소배출",
+      "녹색성장",
+      "그린GDP"
+    ],
+    "example": "환경계정은 환경오염으로 인한 경제적 손실을 평가하는 데 활용된다."
+  },
+  {
+    "term": "환매조건부매매/RP/Repo",
+    "english": "Repurchase Agreement (Repo)",
+    "definition": "일정 기간 후 다시 되사기로 약속하고 채권을 매도하는 방식의 단기 자금 조달 수단이다.",
+    "category": "단기금융시장",
+    "related_terms": [
+      "유동성공급",
+      "채권",
+      "콜시장"
+    ],
+    "example": "한국은행은 RP를 통해 시중에 유동성을 공급하거나 흡수한다."
+  },
+  {
+    "term": "환차손/환차익",
+    "english": "Foreign Exchange Loss/Gain",
+    "definition": "환율 변동에 따라 외화 자산·부채의 평가금액이 변하면서 발생하는 손익이다.",
+    "category": "국제금융/회계",
+    "related_terms": [
+      "환율",
+      "외환포지션",
+      "평가손익"
+    ],
+    "example": "환율 하락 시 달러 자산의 가치가 줄어 환차손이 발생할 수 있다."
+  },
+  {
+    "term": "후순위금융채",
+    "english": "Subordinated Bond",
+    "definition": "파산 시 일반 채권보다 변제 순위가 뒤처지지만, 이자율이 높은 금융채다.",
+    "category": "금융상품",
+    "related_terms": [
+      "선순위채",
+      "회사채",
+      "신용위험"
+    ],
+    "example": "후순위금융채는 리스크가 높은 만큼 수익률이 더 높다."
+  },
+  {
+    "term": "CMO",
+    "english": "Collateralized Mortgage Obligation",
+    "definition": "주택담보대출을 기초자산으로 한 MBS를 여러 등급으로 나눈 구조화 채권이다.",
+    "category": "파생상품",
+    "related_terms": [
+      "MBS",
+      "ABS",
+      "SPV"
+    ],
+    "example": "CMO는 다양한 위험 선호도를 가진 투자자들을 위해 설계된다."
+  },
+  {
+    "term": "계절변동조정시계열",
+    "english": "Seasonally Adjusted Time Series",
+    "definition": "계절적 요인으로 인한 변동을 제거하여 경제지표의 추세를 명확히 분석하는 시계열 자료다.",
+    "category": "통계/경제지표",
+    "related_terms": [
+      "원계열",
+      "경제통계",
+      "계절효과"
+    ],
+    "example": "실업률은 계절변동조정 수치를 함께 확인해야 정확하다."
+  },
+  {
+    "term": "GDP디플레이터",
+    "english": "GDP Deflator",
+    "definition": "명목GDP를 실질GDP로 나눈 물가지수로, 전체 경제의 물가 수준 변동을 반영한다.",
+    "category": "거시경제",
+    "related_terms": [
+      "소비자물가지수",
+      "실질GDP",
+      "명목GDP"
+    ],
+    "example": "GDP디플레이터는 인플레이션을 측정하는 주요 지표 중 하나다."
+  },
+  {
+    "term": "LIBOR",
+    "english": "London Interbank Offered Rate",
+    "definition": "국제 금융시장에서 은행 간 단기자금 거래에 사용되는 대표적 기준금리였다.",
+    "category": "금융지표",
+    "related_terms": [
+      "SOFR",
+      "기준금리",
+      "국제금융"
+    ],
+    "example": "LIBOR는 파생상품 가격과 글로벌 대출금리에 영향을 주었다."
+  },
+  {
+    "term": "PF-ABCP",
+    "english": "Project Financing Asset-Backed Commercial Paper",
+    "definition": "부동산 등 프로젝트 자금 조달을 위해 발행된 자산유동화 기업어음이다.",
+    "category": "기업금융",
+    "related_terms": [
+      "PF",
+      "ABCP",
+      "SPC"
+    ],
+    "example": "PF-ABCP는 건설 프로젝트의 자금을 단기적으로 조달할 때 활용된다."
+  },
+  {
+    "term": "VAN사업자",
+    "english": "Value Added Network Provider",
+    "definition": "카드 결제 승인과 정보를 전산망으로 연결해주는 중계사업자다.",
+    "category": "전자금융/결제",
+    "related_terms": [
+      "PG사",
+      "전자결제",
+      "POS"
+    ],
+    "example": "VAN사업자는 가맹점의 카드 결제 정보를 금융기관에 전달한다."
+  },
+  {
+    "term": "고용보조지표",
+    "english": "Supplementary Employment Indicators",
+    "definition": "실업률 외에도 실망실업자나 시간제 근로자 등을 포함한 고용상황을 보완하는 지표다.",
+    "category": "노동시장",
+    "related_terms": [
+      "확장실업률",
+      "경제활동참가율",
+      "고용률"
+    ],
+    "example": "고용보조지표는 공식 실업률로는 드러나지 않는 고용 문제를 보여준다."
+  },
+  {
+    "term": "고정분류여신",
+    "english": "Substandard Loan",
+    "definition": "회수가 불확실하거나 연체가 일정기간 이상 지속된 여신으로, 부실 위험이 높다.",
+    "category": "은행/여신관리",
+    "related_terms": [
+      "정상여신",
+      "요주의여신",
+      "부실채권"
+    ],
+    "example": "고정분류여신은 금융기관의 건전성 평가에 영향을 준다."
+  },
+  {
+    "term": "고통지수",
+    "english": "Misery Index",
+    "definition": "실업률과 인플레이션율을 더한 지표로, 국민의 경제적 고통 수준을 나타낸다.",
+    "category": "거시경제/경제지표",
+    "related_terms": [
+      "실업률",
+      "물가상승률",
+      "삶의 질"
+    ],
+    "example": "고통지수가 높으면 경제정책에 대한 국민 불만이 커질 수 있다."
+  },
+  {
+    "term": "공급사용표(SUT)",
+    "english": "Supply and Use Table (SUT)",
+    "definition": "산업별 상품의 공급과 사용 흐름을 나타내는 표로, 국민계정의 기초 자료로 활용된다.",
+    "category": "국민계정/통계",
+    "related_terms": [
+      "산업연관표",
+      "국민소득계정",
+      "생산활동"
+    ],
+    "example": "SUT는 생산, 소비, 수출입 간 균형을 파악하는 데 유용하다."
+  },
+  {
+    "term": "관리통화제도",
+    "english": "Managed Currency System",
+    "definition": "금이나 다른 실물 없이 중앙은행이 통화량을 조절하는 제도이다.",
+    "category": "통화제도/중앙은행",
+    "related_terms": [
+      "금본위제",
+      "불환지폐",
+      "통화량"
+    ],
+    "example": "현대 대부분의 국가는 관리통화제도를 채택하고 있다."
+  },
+  {
+    "term": "구속성예금",
+    "english": "Tied Deposit",
+    "definition": "특정 용도에만 사용할 수 있도록 제한된 예금으로, 기업 자금 운용에 제약이 있다.",
+    "category": "은행예금/기업금융",
+    "related_terms": [
+      "자유예금",
+      "제한계좌",
+      "운영자금"
+    ],
+    "example": "구속성예금은 담보 목적 등으로 자금 이동이 제한된다."
+  },
+  {
+    "term": "국가신용등급",
+    "english": "Sovereign Credit Rating",
+    "definition": "국가가 외채를 상환할 수 있는 능력과 의지를 평가한 등급이다.",
+    "category": "국제금융/신용평가",
+    "related_terms": [
+      "신용스프레드",
+      "채권금리",
+      "무디스"
+    ],
+    "example": "국가신용등급이 높을수록 외국인 투자 유치에 유리하다."
+  },
+  {
+    "term": "국고대리점",
+    "english": "Treasury Agency Bank",
+    "definition": "한국은행을 대신해 국고금 수납 및 지급을 대행하는 은행이다.",
+    "category": "재정/금융기관",
+    "related_terms": [
+      "국고금",
+      "예산집행",
+      "대행기관"
+    ],
+    "example": "국고대리점은 정부의 세입세출과 관련된 업무를 수행한다."
+  },
+  {
+    "term": "국내신용",
+    "english": "Domestic Credit",
+    "definition": "중앙은행이 정부나 금융기관 등에 공급한 총신용 규모를 뜻한다.",
+    "category": "통화정책",
+    "related_terms": [
+      "총통화",
+      "본원통화",
+      "유동성"
+    ],
+    "example": "국내신용이 증가하면 시중 통화량이 확대되는 경향이 있다."
+  },
+  {
+    "term": "국민부담률",
+    "english": "Tax and Social Contribution Burden Ratio",
+    "definition": "조세 및 사회보장기여금이 국민소득에서 차지하는 비율이다.",
+    "category": "조세/재정",
+    "related_terms": [
+      "조세부담률",
+      "국민소득",
+      "복지지출"
+    ],
+    "example": "국민부담률이 높을수록 복지 확대와 재정 지출 여력이 크다."
+  },
+  {
+    "term": "국민처분가능소득",
+    "english": "Gross National Disposable Income (GNDI)",
+    "definition": "국민이 실제로 소비하거나 저축할 수 있는 소득으로, 국민총소득에 국외 순이전 등을 반영한 개념이다.",
+    "category": "국민계정",
+    "related_terms": [
+      "GNI",
+      "저축률",
+      "가처분소득"
+    ],
+    "example": "국민처분가능소득은 실질적인 생활수준을 판단하는 데 유용하다."
+  },
+  {
+    "term": "국외저축",
+    "english": "Foreign Savings",
+    "definition": "국내총투자에서 국내총저축을 뺀 금액으로, 해외에서 조달된 자금이다.",
+    "category": "국제수지/거시경제",
+    "related_terms": [
+      "경상수지",
+      "해외자본유입",
+      "투자"
+    ],
+    "example": "국외저축이 많다는 것은 해외 자본에 의존해 투자가 이루어진다는 뜻이다."
+  },
+  {
+    "term": "국제수지(BOP)",
+    "english": "Balance of Payments (BOP)",
+    "definition": "한 나라의 외국과의 모든 경제 거래를 기록한 종합 통계다.",
+    "category": "국제금융/무역",
+    "related_terms": [
+      "경상수지",
+      "자본수지",
+      "외환보유액"
+    ],
+    "example": "국제수지는 수출입뿐 아니라 투자와 이전소득까지 포함한다."
+  },
+  {
+    "term": "국제투자대조표(IIP)",
+    "english": "International Investment Position",
+    "definition": "한 나라의 대외 금융자산과 부채의 잔액을 나타내는 통계로, 국제수지와 함께 국가의 대외건전성을 평가하는 지표다.",
+    "category": "국제금융",
+    "related_terms": [
+      "국제수지",
+      "외환보유액",
+      "순대외자산"
+    ],
+    "example": "IIP는 국가의 순대외자산이 얼마나 되는지를 보여준다."
+  },
+  {
+    "term": "근원인플레이션율",
+    "english": "Core Inflation Rate",
+    "definition": "계절변동이 크거나 일시적인 가격 변동이 큰 품목을 제외한 물가 상승률이다.",
+    "category": "물가/거시경제",
+    "related_terms": [
+      "소비자물가지수",
+      "헤드라인 인플레이션",
+      "물가안정목표제"
+    ],
+    "example": "근원인플레이션은 물가의 장기 추세를 판단하는 데 유용하다."
+  },
+  {
+    "term": "글로벌금융안전망",
+    "english": "Global Financial Safety Net",
+    "definition": "글로벌 금융위기 등 비상 시 유동성 공급과 신뢰 확보를 위한 국제 공조 장치다.",
+    "category": "국제금융",
+    "related_terms": [
+      "IMF",
+      "통화스와프",
+      "외환보유액"
+    ],
+    "example": "글로벌금융안전망은 국가 간 유동성 위기를 막기 위한 장치다."
+  },
+  {
+    "term": "금리자유화",
+    "english": "Interest Rate Liberalization",
+    "definition": "정부가 금리를 인위적으로 통제하지 않고 시장에 맡기는 제도로, 금융시장 효율성을 높인다.",
+    "category": "금융정책",
+    "related_terms": [
+      "시장금리",
+      "통화정책",
+      "자본시장"
+    ],
+    "example": "금리자유화는 자금 배분의 효율성을 제고하는 정책이다."
+  },
+  {
+    "term": "금융EDI",
+    "english": "Financial Electronic Data Interchange",
+    "definition": "전자적으로 금융 데이터를 표준화된 형식으로 교환하는 시스템이다.",
+    "category": "전자금융",
+    "related_terms": [
+      "전자결제",
+      "VAN",
+      "금융자동화"
+    ],
+    "example": "금융EDI는 기업 간 전자금융 거래의 효율성을 높인다."
+  },
+  {
+    "term": "금융안정",
+    "english": "Financial Stability",
+    "definition": "금융시스템이 충격에도 잘 작동하고 금융기관이 제 역할을 수행할 수 있는 상태다.",
+    "category": "금융정책/감독",
+    "related_terms": [
+      "시스템리스크",
+      "금융감독",
+      "자본적정성"
+    ],
+    "example": "중앙은행은 금융안정을 위해 기준금리와 유동성 정책을 조절한다."
+  },
+  {
+    "term": "금융중개지원대출제도",
+    "english": "Bank Intermediated Lending Support Program",
+    "definition": "중소기업 금융 지원을 위해 한국은행이 시중은행에 낮은 금리로 자금을 공급하는 제도다.",
+    "category": "통화정책",
+    "related_terms": [
+      "정책금융",
+      "중소기업대출",
+      "기준금리"
+    ],
+    "example": "이 제도는 중소기업의 자금난을 완화하고 금융중개기능을 강화한다."
+  },
+  {
+    "term": "기대인플레이션",
+    "english": "Expected Inflation",
+    "definition": "경제주체들이 향후 예상하는 물가상승률로, 실제 인플레이션과 정책에 영향을 준다.",
+    "category": "거시경제",
+    "related_terms": [
+      "인플레이션",
+      "물가안정",
+      "심리"
+    ],
+    "example": "기대인플레이션이 높으면 임금과 가격 인상 요구가 커질 수 있다."
+  },
+  {
+    "term": "기업경기실사지수(BSI)",
+    "english": "Business Survey Index (BSI)",
+    "definition": "기업의 경기 판단과 전망을 조사하여 수치화한 지표로, 100을 기준으로 경기를 평가한다.",
+    "category": "경제지표",
+    "related_terms": [
+      "소비자동향지수",
+      "심리지표",
+      "경기예측"
+    ],
+    "example": "BSI가 100 이상이면 경기에 대한 낙관이 우세하다는 뜻이다."
+  },
+  {
+    "term": "기준금리",
+    "english": "Base Rate",
+    "definition": "중앙은행이 시중은행과의 거래에 적용하는 대표적인 금리로, 시장 금리에 영향을 미친다.",
+    "category": "통화정책",
+    "related_terms": [
+      "콜금리",
+      "정책금리",
+      "유동성"
+    ],
+    "example": "기준금리가 오르면 대출이자도 함께 상승하는 경향이 있다."
+  },
+  {
+    "term": "기초가격",
+    "english": "Basic Price",
+    "definition": "상품 또는 서비스 생산자가 받는 순수한 생산가치를 의미하며, 세금과 보조금을 제외한 가격이다.",
+    "category": "국민계정/물가",
+    "related_terms": [
+      "시장가격",
+      "부가가치",
+      "GDP"
+    ],
+    "example": "기초가격은 생산자의 실질 수익을 반영한 가격 개념이다."
+  },
+  {
+    "term": "긴급수입제한조치",
+    "english": "Safeguard Measures",
+    "definition": "수입이 급증해 국내 산업에 심각한 피해를 줄 경우 일시적으로 수입을 제한하는 조치다.",
+    "category": "무역정책",
+    "related_terms": [
+      "반덤핑",
+      "보복관세",
+      "무역구제"
+    ],
+    "example": "긴급수입제한조치는 국내 산업을 보호하기 위한 일시적 대응이다."
+  },
+  {
+    "term": "낙인효과",
+    "english": "Stigma Effect",
+    "definition": "정부나 기관의 특정 조치가 오히려 부정적인 낙인처럼 작용하여 시장에 불안감을 주는 현상이다.",
+    "category": "행동경제/정책효과",
+    "related_terms": [
+      "정보비대칭",
+      "신호효과",
+      "심리효과"
+    ],
+    "example": "IMF에 자금 지원을 요청하면 낙인효과로 시장 불안이 커질 수 있다."
+  },
+  {
+    "term": "내부등급법",
+    "english": "Internal Ratings-Based Approach (IRB)",
+    "definition": "은행이 자체 신용평가 모델을 통해 위험가중자산을 산정하는 방식이다.",
+    "category": "금융감독/위험관리",
+    "related_terms": [
+      "BIS비율",
+      "위험가중자산",
+      "기본내부등급법"
+    ],
+    "example": "내부등급법은 대출자의 신용도를 정교하게 반영할 수 있는 제도다."
+  },
+  {
+    "term": "녹색기후기금(GCF)",
+    "english": "Green Climate Fund (GCF)",
+    "definition": "개도국의 기후변화 대응을 지원하기 위해 설립된 국제기금으로, 유엔 산하 기구가 관리한다.",
+    "category": "환경/국제협력",
+    "related_terms": [
+      "기후변화",
+      "탄소중립",
+      "지속가능발전"
+    ],
+    "example": "GCF는 개발도상국의 온실가스 감축과 적응을 재정적으로 돕는다."
+  }
+]

@@ -101,16 +101,19 @@ async function loadQuote(symbol) {
   document.getElementById('prevClose').textContent = quote.previous_close || '--';
 }
 
+
+
+
 // 4. 경제 용어 카드 슬라이드
-function loadEconomicTerm() {
-  fetch('terms.json')
+function loadDailyTerms() {
+  fetch('http://localhost:8080/api/terms/daily')
     .then(res => res.json())
     .then(data => {
       termData = data;
-      showTermCard(termIndex);
+      termIndex = 0;
+      showTermCard(termIndex);  // 기존 로직 활용
     });
 }
-
 function showTermCard(index) {
   const container = document.getElementById('term-card-container');
   if (!termData[index]) return;
@@ -125,6 +128,21 @@ function showTermCard(index) {
     </div>
   `;
 }
+function searchTerm() {
+    const keyword = document.getElementById("searchInput").value;
+    if (!keyword) return;
+
+    fetch(`http://localhost:8080/api/terms/search?keyword=${encodeURIComponent(keyword)}`)
+        .then(res => res.json())
+        .then(data => {
+            localStorage.setItem("searchResults", JSON.stringify(data));
+            window.location.href = "search.html"; // 결과 페이지로 이동
+        })
+        .catch(err => {
+            console.error("검색 오류:", err);
+        });
+}
+
 
 function prevTerm() {
   if (termIndex > 0) {
@@ -247,6 +265,6 @@ function searchStock() {
 
 document.addEventListener('DOMContentLoaded', () => {
   loadStocks();
-  loadEconomicTerm();
+  loadDailyTerms();
   loadNews();
 });
