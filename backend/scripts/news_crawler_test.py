@@ -115,7 +115,7 @@ def normalize_date(date_str):
 
 # 📦 뉴스 평탄화 및 전송 준비
 payload = []
-articles = results.get("news_results", [])[:20]
+articles = results.get("news_results", [])[:5]
 
 for a in articles:
     title = a.get("title")
