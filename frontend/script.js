@@ -289,6 +289,126 @@ function searchStock() {
     });
 }
 
+// ✅ 환율 카드 로딩 (USD/KRW)
+async function loadExchangeRate() {
+  try {
+    const url = `https://api.twelvedata.com/quote?symbol=USD/KRW&apikey=65d57137a9164e96aec5ae7d3e9992f0`;
+    const res = await fetch(url);
+    const data = await res.json();
+
+    const container = document.getElementById('exchange-card-container');
+    container.innerHTML = `
+      <div style="
+        background: rgba(255, 255, 255, 0.85);
+        padding: 24px;
+        border-radius: 16px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+        max-width: 380px;
+        text-align: center;
+      ">
+        <h3>🇺🇸 USD ➜ 🇰🇷 KRW</h3>
+        <p><strong>현재가:</strong> ${data.price || '--'} 원</p>
+        <p><strong>고가:</strong> ${data.high || '--'} 원</p>
+        <p><strong>저가:</strong> ${data.low || '--'} 원</p>
+      </div>
+    `;
+  } catch (err) {
+    console.error("환율 데이터를 불러오는 데 실패:", err);
+    document.getElementById('exchange-card-container').textContent = "불러오기 실패";
+  }
+}
+// 💱 여러 환율 카드 슬라이더
+const exchangeList = [
+  { symbol: "USD/KRW", label: "🇺🇸 USD ➜ 🇰🇷 KRW" },
+  { symbol: "USD/JPY", label: "🇺🇸 USD ➜ 🇯🇵 JPY" },
+  { symbol: "USD/EUR", label: "🇺🇸 USD ➜ 🇪🇺 EUR" },
+  { symbol: "USD/GBP", label: "🇺🇸 USD ➜ 🇬🇧 GBP" },
+  { symbol: "USD/CNY", label: "🇺🇸 USD ➜ 🇨🇳 CNY" }
+];
+let exchangeIndex = 0;
+
+async function loadExchangeRate(index = 0) {
+  const { symbol, label } = exchangeList[index];
+  const url = `https://api.twelvedata.com/quote?symbol=${symbol}&apikey=${API_KEY}`;
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    const container = document.getElementById('exchange-card-container');
+    container.innerHTML = `
+      <div style="
+        background: rgba(255, 255, 255, 0.85);
+        padding: 24px;
+        border-radius: 16px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+        max-width: 380px;
+        text-align: center;
+      ">
+        <h3>${label}</h3>
+        <p><strong>현재가:</strong> ${data.price || '--'} 원</p>
+        <p><strong>고가:</strong> ${data.high || '--'} 원</p>
+        <p><strong>저가:</strong> ${data.low || '--'} 원</p>
+      </div>
+    `;
+  } catch (err) {
+    console.error("환율 로딩 실패:", err);
+    document.getElementById('exchange-card-container').textContent = "불러오기 실패";
+  }
+}
+
+function nextExchange() {
+  exchangeIndex = (exchangeIndex + 1) % exchangeList.length;
+  loadExchangeRate(exchangeIndex);
+}
+
+function prevExchange() {
+  exchangeIndex = (exchangeIndex - 1 + exchangeList.length) % exchangeList.length;
+  loadExchangeRate(exchangeIndex);
+}
+//더미 데이터들 꼭 지울 것!!!!
+function loadDailyTerms() {
+  // ✅ 백엔드 없이도 동작하는 더미 데이터
+  termData = [
+    {
+      term: "GDP",
+      english: "Gross Domestic Product",
+      definition: "한 나라에서 일정 기간 동안 생산된 모든 재화와 서비스의 시장 가치",
+      example: "GDP가 증가하면 생산과 고용이 늘어나고, 기업 이익 증가로 주식시장도 긍정적인 영향을 받을 수 있다.",
+      related_terms: ["GNP", "성장률", "국민소득"]
+    },
+    {
+      term: "인플레이션",
+      english: "Inflation",
+      definition: "전반적인 상품과 서비스 가격이 지속적으로 상승하는 현상",
+      example: "인플레이션이 심해지면 중앙은행은 기준금리를 인상한다.",
+      related_terms: ["디플레이션", "물가상승률", "기준금리"]
+    }
+  ];
+  termIndex = 0;
+  showTermCard(termIndex);
+}
+function loadNews() {
+  // ✅ 백엔드 없이도 동작하는 더미 뉴스 데이터
+  allNews = [
+    {
+      title: "한국 증시 상승 마감",
+      gptSummary: "코스피와 코스닥 지수 모두 상승 마감했으며, 반도체주 중심의 강세가 두드러졌다.",
+      time: "카테고리: 경제",
+      link: "https://example.com/news1"
+    },
+    {
+      title: "달러 환율 1300원 돌파",
+      gptSummary: "원달러 환율이 1300원을 돌파하며 수입물가 상승 우려가 커지고 있다.",
+      time: "카테고리: 금융",
+      link: "https://example.com/news2"
+    }
+  ];
+  selectedCategory = 'All';
+  renderNewsTabs();
+  renderNewsCards();
+}
+
+
 
 // 6. 초기 실행
 
@@ -296,4 +416,5 @@ document.addEventListener('DOMContentLoaded', () => {
   loadStocks();
   loadDailyTerms();
   loadNews();
+  loadExchangeRate(); 
 });
