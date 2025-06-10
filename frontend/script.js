@@ -101,16 +101,19 @@ async function loadQuote(symbol) {
   document.getElementById('prevClose').textContent = quote.previous_close || '--';
 }
 
+
+
+
 // 4. 경제 용어 카드 슬라이드
-function loadEconomicTerm() {
-  fetch('terms.json')
+function loadDailyTerms() {
+  fetch('http://localhost:8080/api/terms/daily')
     .then(res => res.json())
     .then(data => {
       termData = data;
-      showTermCard(termIndex);
+      termIndex = 0;
+      showTermCard(termIndex);  // 기존 로직 활용
     });
 }
-
 function showTermCard(index) {
   const container = document.getElementById('term-card-container');
   if (!termData[index]) return;
@@ -125,6 +128,21 @@ function showTermCard(index) {
     </div>
   `;
 }
+function searchTerm() {
+    const keyword = document.getElementById("searchInput").value;
+    if (!keyword) return;
+
+    fetch(`http://localhost:8080/api/terms/search?keyword=${encodeURIComponent(keyword)}`)
+        .then(res => res.json())
+        .then(data => {
+            localStorage.setItem("searchResults", JSON.stringify(data));
+            window.location.href = "search.html"; // 결과 페이지로 이동
+        })
+        .catch(err => {
+            console.error("검색 오류:", err);
+        });
+}
+
 
 function prevTerm() {
   if (termIndex > 0) {
@@ -141,24 +159,46 @@ function nextTerm() {
 }
 
 // 5. 뉴스 카드 필터 + 출력
-function loadNews() {
-  fetch('news.json')
-    .then(res => res.json())
-    .then(data => {
-      allNews = data;
-      renderNewsTabs();
-      renderNewsCards();
-    });
+async function loadNews() {
+  try {
+    const response = await fetch('http://localhost:8080/api/news/all'); // ← 절대 경로로 수정
+    const data = await response.json();
+
+    console.log('[디버그] 서버에서 받은 뉴스 데이터:', data);
+
+    if (!Array.isArray(data)) {
+      console.warn('[경고] 받아온 데이터가 배열이 아닙니다.');
+      return;
+    }
+
+    allNews = data;
+    selectedCategory = 'All';
+    renderNewsTabs();
+    renderNewsCards();
+
+  } catch (error) {
+    console.error('[에러] 뉴스 데이터를 불러오는 중 오류 발생:', error);
+  }
 }
+
+
+
 
 function renderNewsTabs() {
   const tabs = document.getElementById('news-tabs');
-  const categories = ['All', ...new Set(allNews.flatMap(n => n.time.replace('카테고리: ', '').split(', ')))];
+
+  const categories = ['All', ...new Set(
+    allNews.flatMap(n => {
+      const time = n.time || '';  // time 필드가 없으면 빈 문자열
+      return time.replace('카테고리: ', '').split(', ').filter(cat => cat);
+    })
+  )];
 
   tabs.innerHTML = categories.map(cat => `
     <button class="news-tab ${selectedCategory === cat ? 'active' : ''}" onclick="selectCategory('${cat}')">${cat}</button>
   `).join('');
 }
+
 
 function selectCategory(category) {
   selectedCategory = category;
@@ -167,19 +207,26 @@ function selectCategory(category) {
 }
 
 function renderNewsCards() {
-  const container = document.getElementById('news-card-list');
-  let newsToShow = selectedCategory === 'All'
-    ? allNews
-    : allNews.filter(news => news.time.includes(selectedCategory));
+  const container = document.getElementById('news-cards');
+  if (!container) {
+    console.warn("❗ 'news-cards' 요소가 존재하지 않습니다.");
+    return;
+  }
 
-  container.innerHTML = newsToShow.map(news => `
-    <div class="news-card" onclick="window.open('${news.link}', '_blank')">
-      <h4>${news.title}</h4>
-      <p>${news.description}</p>
-      <small>${news.time}</small>
+  const filteredNews = selectedCategory === 'All'
+    ? allNews
+    : allNews.filter(n => n.time?.includes(selectedCategory));
+
+  container.innerHTML = filteredNews.map(n => `
+    <div class="news-card">
+      <h3 class="news-title">${n.title}</h3>
+      <p class="news-summary">${n.gptSummary || n.snippet}</p>
+      <a class="news-link" href="${n.link}" target="_blank">기사 보기</a>
     </div>
   `).join('');
 }
+
+
 /// 주식 종목 검색 기능
 // 주식 종목 검색 기능
 function searchStock() {
@@ -247,6 +294,6 @@ function searchStock() {
 
 document.addEventListener('DOMContentLoaded', () => {
   loadStocks();
-  loadEconomicTerm();
+  loadDailyTerms();
   loadNews();
 });

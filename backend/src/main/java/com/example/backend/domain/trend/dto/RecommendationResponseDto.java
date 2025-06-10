@@ -1,13 +1,15 @@
-package com.example.backend.trend.dto;
+package com.example.backend.domain.trend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class TrendItem {
+public class RecommendationResponseDto {
     private String keyword;
-    private int score;
+    private List<String> recommendedStocks;
 }

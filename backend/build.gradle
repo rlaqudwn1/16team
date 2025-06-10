@@ -14,6 +14,10 @@ java {
 		languageVersion = JavaLanguageVersion.of(17)
 	}
 }
+tasks.withType(JavaCompile) {
+	options.compilerArgs += "-parameters"
+}
+
 
 configurations {
 	compileOnly {
@@ -36,6 +40,16 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	// OkHttp (HTTP 요청용)
+	implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+
+	// Gson (JSON 파싱용)
+	implementation 'com.google.code.gson:gson:2.10.1'
+
+	// JFreeChart (차트 이미지 생성용)
+	implementation 'org.jfree:jfreechart:1.5.4'
+
 
 }
 
