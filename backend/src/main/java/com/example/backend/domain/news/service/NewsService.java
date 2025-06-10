@@ -68,7 +68,9 @@ public class NewsService {
     }
 
 
-
+    public List<News> findAll(){
+        return newsRepository.findAll();
+    }
     public List<News> saveAll(List<NewsRequestDto> dtos) {
         List<News> savedNewsList = new ArrayList<>();
 
@@ -120,7 +122,7 @@ public class NewsService {
         Map<String, Object> message = Map.of(
                 "role", "user",
                 "content", "다음 뉴스 내용을 경제 전문가 관점에서 3문장으로 요약해줘. \n" +
-                        "시장 영향, 정책 시사점, 투자자에게 중요한 내용을 중심으로.\n:\n\n" + content
+                        "시장 영향, 정책 시사점, 투자자에게 중요한 내용을 중심으로 단 투자자가 주식을 처음 접하는 초보자라는 인식을 잊으면 안된다.\n:\n\n" + content
         );
 
         Map<String, Object> request = Map.of(
